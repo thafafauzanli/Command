@@ -1,0 +1,5 @@
+# Android
+keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+
+# Untuk HttpsServer java
+keytool -genkeypair -keyalg RSA -alias localhost -keystore keystore.jks -storepass password -validity 360 -keysize 2048

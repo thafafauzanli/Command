@@ -1,0 +1,3 @@
+ctags -R .
+ctags -R --languages=Java --exclude=.git --exclude=target .
+ctags -R -a -f tags /path/to/java/src.zip
