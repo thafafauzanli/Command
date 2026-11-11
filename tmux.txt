@@ -1,0 +1,14 @@
+Binding Tombol dan Shortcut tmux
+    Ctrl-b + d – memutuskan sambungan (detach) dari sesi saat ini.
+    Ctrl-b + % – membagi satu jendela menjadi panel atas dan bawah.
+    Ctrl-b + ” – membagi jendela menjadi dua panel secara vertikal.
+    Ctrl-b + panah – berpindah ke panel lain dalam arah sesuai panah.
+    Ctrl-b + x – menutup panel saat ini.
+    Ctrl-b + c – membuat jendela baru.
+    Ctrl-b + n – berpindah ke jendela berikutnya berdasarkan nomor.
+    Ctrl-b + p – kembali ke jendela sebelumnya.
+    Ctrl-b + nomor ID – melompat ke jendela tertentu menggunakan nomor ID.
+    Ctrl-b + : – membuka mode command-line.
+    Ctrl-b + ? – menampilkan semua shortcut.
+    Ctrl-b + w – mencantumkan semua jendela dalam sesi saat ini.
+Perlu diperhatikan bahwa shortcut tmux hanya berfungsi dalam sesi tmux. Selain itu, agar keybind bisa berfungsi, Anda harus menekan Ctrl-b dulu sebelum tombol yang ingin Anda gunakan, seperti yang dijelaskan di atas.
