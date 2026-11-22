@@ -1,0 +1,10 @@
+meson setup builddir
+# dari root
+meson compile -C builddir / ninja -C builddir
+# dari builddir
+meson compile / ninja
+
+# tambahan
+meson setup builddir --reconfigure
+meson test -C builddir / ninja -C builddir test
+meson install -C builddir / ninja -C builddir install
